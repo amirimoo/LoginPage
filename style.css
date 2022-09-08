@@ -1,0 +1,26 @@
+@font-face {
+    font-family: yekan;
+    src: url(./Fonts/a3xd_iranyekanwebbold.ttf);
+}
+
+* {
+    font-family: yekan;
+}
+
+body {
+    background-image: url(./images/191335.jpg);
+    background-repeat: no-repeat;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.search{
+    border-right: 0px solid;
+    border-left: 0px solid;
+    border-radius: 5px;
+    margin-left: 30px;
+}
